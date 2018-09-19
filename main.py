@@ -39,7 +39,7 @@ with open("newsafr.xml", encoding='utf8') as f:
        titles += title.text.split(" ")
     result = processing_list(titles)
     print(result)
-#
+
 print("Информация по json:")
 with open("newsafr.json", encoding="utf8") as datafile:
     json_data = json.load(datafile)
